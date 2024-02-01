@@ -1,0 +1,37 @@
+{
+  "config_version": {
+    "id": "__default",
+    "version": 0
+  },
+  "dimensions": [
+    {
+      "dim": -1,
+      "unregister": true
+    },
+
+    {
+      "dim": 1,
+      "unregister": true
+    },
+
+    {
+      "dim": 0,
+      "override": true,
+      "dimensiontype": {
+        "id": 0,
+        "name": "overworld",
+        "suffix": "",
+        "keeploaded": true,
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true
+      },
+      "jed": {
+        "CustomDayCycle": true,
+        "DayLength": 54000,
+        "NightLength": 18000
+      }
+    }
+
+  ]
+  
+}
