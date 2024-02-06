@@ -1,7 +1,5 @@
 # TheFollowing
 
- Mod List
-
 - Content Mods -
 
 HBM's Nuclear Tech Mod Extended Edition
@@ -9,7 +7,8 @@ Modern Warfare Cubed
 OpenComputers
 OpenSecurity
 Engineer's Decor
-Deep Mob Learning
+Deep Mob Evolution
+Beast Slayer
 Grappling Hook Mod
 
 - Config Mods -
@@ -18,6 +17,7 @@ CraftTweaker
 ContentTweaker
 COFH World
 BiomeTweaker
+BiomeTweakerCore
 Biomes O Plenty
 Food Funk
 FirstAid
@@ -26,8 +26,8 @@ Unexperienced
 Default World Generator (port)
 RecurrentComplex 
 InControl!
-Multiblocked // Modular Machinery
-BetterQuesting
+Modular Machinery
+Better Questing Unofficial
 Triumph
 DefaultSettings
 Custom Main Menu
@@ -35,7 +35,6 @@ Custom Backgrounds
 Custom Loading Screen
 It's The Little Things
 Just Enough Dimensions
-Scavenge
 Cave Generator
 No Worldgen 5 You
 Dropt
@@ -53,3 +52,5 @@ Better Advancements
 No Recipe Book
 Toast Control
 Inventory Tweaks
+Main Menu Scale
+Nature's Compass
