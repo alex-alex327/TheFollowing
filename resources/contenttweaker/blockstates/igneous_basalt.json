@@ -1,0 +1,6 @@
+{
+    "variants": {
+      "normal": { "model": "contenttweaker:igneous_basalt" },
+      "inventory": {"model": "contenttweaker:igneous_basalt"}
+    }
+  }

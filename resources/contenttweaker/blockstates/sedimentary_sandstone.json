@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "normal": { "model": "contenttweaker:sedimentary_sandstone" },
+    "inventory": {"model": "contenttweaker:sedimentary_sandstone"}
+  }
+}
