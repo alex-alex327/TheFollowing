@@ -1,0 +1,57 @@
+{
+    "rules": [
+
+
+      {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "minecraft:sand"
+            ] 
+          },
+          "harvester": {
+            "type": "PLAYER",
+            "heldItemMainHand": {
+                "items": [
+                  "minecraft:diamond_pickaxe"
+                ]
+            }
+          }
+
+        },
+        "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+        "drops": [
+            {
+            
+              "item": {
+                "items": [
+                  "minecraft:emerald",
+                  "minecraft:diamond"
+                ],
+                "quantity": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            }
+
+          ]
+        },
+        {
+            "match": {
+              "blocks": {
+                "blocks": [
+                  "minecraft:sand"
+                ] 
+              }
+    
+            },
+            "replaceStrategy": "REPLACE_ALL",
+            "drops": [
+              {}
+    
+            ]
+          }
+
+    ]
+  }
