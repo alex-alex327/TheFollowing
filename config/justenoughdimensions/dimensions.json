@@ -25,12 +25,55 @@
         "worldprovider": "WorldProviderSurfaceJED",
         "require_exact_match": true
       },
+      "worldinfo": {
+        "hardcore": true,
+        "DifficultyLocked": 3
+
+
+      },
       "jed": {
         "CustomDayCycle": true,
         "DayLength": 54000,
-        "NightLength": 18000
+        "NightLength": 18000,
+        "CloudHeight": -2000
       }
+    },
+
+
+    {
+			"dim": 2,
+			"dimensiontype":
+			{
+				"id": 2,
+				"name": "augmented_reality",
+				"suffix": "_dim2",
+				"keeploaded": false,
+				"worldprovider": "WorldProviderSurfaceJED"
+
+			},
+      "worldinfo": {
+        "GameRules": {
+          "doDaylightCycle": "false",
+          "doWeatherCycle": "false",
+          "doMobSpawning": "false"
+        },
+        "generatorName": "flat",
+        "generatorOptions": "3;minecraft:air;1;",
+        "SpawnX": 0,
+        "SpawnY": 100,
+        "SpawnZ": 0,
+        "GameType": 2,
+        "Time": 17000,
+        "DayTime": 17000,
+        "hardcore": false
+
+    },
+    "jed": {
+      "SkyRenderType": 2,
+      "ForceGameMode": true,
+      "CloudHeight": -2000
     }
+		}
 
   ]
   
