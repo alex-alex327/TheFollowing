@@ -28,7 +28,7 @@ InControl!
 Modular Machinery
 Better Questing Unofficial
 Triumph
-DefaultSettings
+Default Options
 Custom Main Menu
 Custom Backgrounds
 Custom Loading Screen
