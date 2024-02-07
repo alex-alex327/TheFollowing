@@ -19,7 +19,6 @@ COFH World
 BiomeTweaker
 BiomeTweakerCore
 Biomes O Plenty
-Food Funk
 FirstAid
 SimpleDifficulty
 Unexperienced
