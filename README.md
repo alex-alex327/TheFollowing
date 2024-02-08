@@ -1,58 +1,74 @@
 # TheFollowing
 
-- Content Mods -
+=== Content Mods ===
 
-HBM's Nuclear Tech Mod Extended Edition
-Modern Warfare Cubed
-OpenComputers
-OpenSecurity
-Engineer's Decor
-Deep Mob Evolution
-Beast Slayer
-Grappling Hook Mod
-
-- Config Mods -
-
-CraftTweaker
-ContentTweaker
-COFH World
-BiomeTweaker
-BiomeTweakerCore
-Biomes O Plenty
-FirstAid
-SimpleDifficulty
-Unexperienced
-Default World Generator (port)
-RecurrentComplex 
-InControl!
-Modular Machinery
-Better Questing Unofficial
-Triumph
-Default Options
-Custom Main Menu
-Custom Backgrounds
-Custom Loading Screen
-It's The Little Things
-Just Enough Dimensions
-Cave Generator
-No Worldgen 5 You
-Dropt
+- Beast Slayer
+- Biomes O' Plenty
+- Deep Mob Evolution
+- Engineer's Decor
+- Grappling Hook Mod
+- Hbm's Nuclear Tech - Extended Edition
+- Modern Warfare Cubed
+- OpenComputers
+- OpenSecurity
 
 
-- Utility Mods -
+=== Config Mods ===
+
+- Better Questing Unofficial
+- BiomeTweaker
+- BiomTweakerCore
+- Cave Generator
+- COFH World
+- ContentTweaker
+- CraftTweaker
+- Custom Backgrounds
+- Custom Loading Screen
+- Custom Main Menu
+- Default Options
+- Default World Generator (port)
+- Dropt
+- FirstAid
+- In Control!
+- It's The Little Things
+- Just Enough Dimensions
+- Modular Machinery
+- No Worldgen 5 You
+- Patchouli
+- RecurrentComplex
+- SimpleDifficulty
+- Tips
+- Triumph
+- Unexperienced
+
+
+=== Utility Mods ===
 
 - AppleSkin
 - Aqua Acrobatics [Forge]
+- Better Advancements
+- Controlling
+- Ding
+- Inventory Tweaks [1.12 only]
+- Just Enough Items (JEI)
+- Main Menu Scale
+- Mouse Tweaks
+- Nature's Compass
+- No Recipe Book
+- Tip The Scales
+- Toast Control
 
-Controlling
-Just Enough Items
-Ding
-Mouse Tweaks
-Better Advancements
-No Recipe Book
-Toast Control
-Inventory Tweaks
-Main Menu Scale
-Nature's Compass
 
-- Libraries -
+=== Libraries ===
+
+- Athenaeum
+- B.A.S.E
+- BnBGamingCore
+- BNBGamingLib
+- CatLib
+- IvToolkit
+- MixinBooter
+- MixinBootstrap
+- Placebo
+- Reborn Core
+- Red Core
