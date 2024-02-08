@@ -41,8 +41,9 @@ Dropt
 
 - Utility Mods -
 
-Aqua Acrobatics [Forge]
-AppleSkin
+- AppleSkin
+- Aqua Acrobatics [Forge]
+
 Controlling
 Just Enough Items
 Ding
@@ -53,3 +54,5 @@ Toast Control
 Inventory Tweaks
 Main Menu Scale
 Nature's Compass
+
+- Libraries -
