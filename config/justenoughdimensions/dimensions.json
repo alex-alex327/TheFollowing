@@ -35,7 +35,8 @@
         "CustomDayCycle": true,
         "DayLength": 54000,
         "NightLength": 18000,
-        "CloudHeight": -2000
+        "CloudHeight": -2000,
+        "SkyDisableFlags": 1
       }
     },
 
