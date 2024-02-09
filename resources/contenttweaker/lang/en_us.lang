@@ -1,2 +1,13 @@
 tile.contenttweaker.sedimentary_sandstone.name=Sandstone
 tile.contenttweaker.igneous_basalt.name=Basalt
+
+
+contenttweaker.part.tiny_dust=Tiny Pile Of %s
+contenttweaker.part.small_dust=Small Pile Of %s 
+contenttweaker.part.regular_dust=%s 
+
+
+item.contenttweaker.edible_root.name=Edible Root
+
+
+item.contenttweaker.wood_log.name=Wood Log
