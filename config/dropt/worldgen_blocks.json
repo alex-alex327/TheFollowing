@@ -1,0 +1,113 @@
+{
+    "rules": [
+
+
+
+        {
+            "match": {
+              "blocks": {
+                "blocks": [
+                  "minecraft:sand"
+                ] 
+              },
+              "harvester": {
+                "type": "PLAYER",
+                "heldItemMainHand": {
+                    "items": [
+                      "hbm:steel_shovel"
+                    ]
+                }
+              }
+    
+            },
+            "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+            "drops": [
+                {
+                    "selector": {
+                      "weight": {
+                        "value": 5
+                      }
+                    },
+                    "item": {
+                      "items" : [
+                        "contenttweaker:material_part"
+                      ]
+                    }
+                  },
+                  {
+                    "selector": {
+                      "weight": {
+                        "value": 95
+                      }
+                    },
+                    "item": {
+                      "items" : [
+                        "contenttweaker:material_part:2"
+                      ]
+                    }
+                  }
+    
+              ]
+            },
+            {
+                "match": {
+                  "blocks": {
+                    "blocks": [
+                      "minecraft:sand"
+                    ] 
+                  },
+                  "harvester": {
+                    "type": "PLAYER"
+
+                  }
+        
+                },
+                "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+                "drops": [
+                    {
+                        "selector": {
+                          "weight": {
+                            "value": 85
+                          }
+                        },
+                        "item": {
+                          "items" : [
+                            "contenttweaker:material_part"
+                          ]
+                        }
+                      },
+                      {
+                        "selector": {
+                          "weight": {
+                            "value": 15
+                          }
+                        },
+                        "item": {
+                          "items" : [
+                            "contenttweaker:material_part:2"
+                          ]
+                        }
+                      }
+        
+                  ]
+                },
+            {
+                "match": {
+                  "blocks": {
+                    "blocks": [
+                      "minecraft:sand"
+                    ] 
+                  }
+        
+                },
+                "replaceStrategy": "REPLACE_ALL",
+                "drops": [
+                  {}
+        
+                ]
+              }
+    
+        ]
+      }
+
+
