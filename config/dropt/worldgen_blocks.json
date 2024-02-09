@@ -2,7 +2,7 @@
     "rules": [
 
 
-
+// Regular Sand Drops //
         {
             "match": {
               "blocks": {
@@ -25,24 +25,24 @@
                 {
                     "selector": {
                       "weight": {
-                        "value": 5
+                        "value": 92
                       }
                     },
                     "item": {
                       "items" : [
-                        "contenttweaker:material_part"
+                        "contenttweaker:material_part:2"
                       ]
                     }
                   },
                   {
                     "selector": {
                       "weight": {
-                        "value": 95
+                        "value": 8
                       }
                     },
                     "item": {
                       "items" : [
-                        "contenttweaker:material_part:2"
+                        "contenttweaker:material_part"
                       ]
                     }
                   }
@@ -105,7 +105,815 @@
                   {}
         
                 ]
-              }
+              },
+
+ // Red Sand Drops //
+              {
+                "match": {
+                  "blocks": {
+                    "blocks": [
+                      "minecraft:sand:1"
+                    ] 
+                  },
+                  "harvester": {
+                    "type": "PLAYER",
+                    "heldItemMainHand": {
+                        "items": [
+                          "hbm:steel_shovel"
+                        ]
+                    }
+                  }
+        
+                },
+                "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+                "drops": [
+                    {
+                        "selector": {
+                          "weight": {
+                            "value": 8
+                          }
+                        },
+                        "item": {
+                          "items" : [
+                            "contenttweaker:material_part:3"
+                          ]
+                        }
+                      },
+                      {
+                        "selector": {
+                          "weight": {
+                            "value": 92
+                          }
+                        },
+                        "item": {
+                          "items" : [
+                            "contenttweaker:material_part:5"
+                          ]
+                        }
+                      }
+        
+                  ]
+                },
+                {
+                    "match": {
+                      "blocks": {
+                        "blocks": [
+                          "minecraft:sand:1"
+                        ] 
+                      },
+                      "harvester": {
+                        "type": "PLAYER"
+    
+                      }
+            
+                    },
+                    "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+                    "drops": [
+                        {
+                            "selector": {
+                              "weight": {
+                                "value": 85
+                              }
+                            },
+                            "item": {
+                              "items" : [
+                                "contenttweaker:material_part:3"
+                              ]
+                            }
+                          },
+                          {
+                            "selector": {
+                              "weight": {
+                                "value": 15
+                              }
+                            },
+                            "item": {
+                              "items" : [
+                                "contenttweaker:material_part:5"
+                              ]
+                            }
+                          }
+            
+                      ]
+                    },
+                {
+                    "match": {
+                      "blocks": {
+                        "blocks": [
+                          "minecraft:sand:1"
+                        ] 
+                      }
+            
+                    },
+                    "replaceStrategy": "REPLACE_ALL",
+                    "drops": [
+                      {}
+            
+                    ]
+                  },
+// Coarse Sandy Dirt Drops //
+                  {
+                    "match": {
+                      "blocks": {
+                        "blocks": [
+                          "biomesoplenty:dirt:9"
+                        ] 
+                      },
+                      "harvester": {
+                        "type": "PLAYER",
+                        "heldItemMainHand": {
+                            "items": [
+                              "hbm:steel_shovel"
+                            ]
+                        }
+                      }
+            
+                    },
+                    "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+                    "drops": [
+                      {
+                        "selector": {
+                          "weight": {
+                            "value": 15
+                          }
+                        },
+                        "item": {
+                          "items" : [
+                            "contenttweaker:material_part:9"
+                          ]
+                        }
+                      },
+                      {
+                        "selector": {
+                          "weight": {
+                            "value": 72
+                          }
+                        },
+                        "item": {
+                          "items" : [
+                            "contenttweaker:material_part:11"
+
+                          ]
+                        }
+                      },
+                      {
+                        "selector": {
+                          "weight": {
+                            "value": 8
+                          }
+                        },
+                        "item": {
+                          "items" : [
+                            "contenttweaker:material_part"
+                          ]
+                        }
+                      },
+                      {
+                        "selector": {
+                          "weight": {
+                            "value": 5
+                          }
+                        },
+                        "item": {
+                          "items" : [
+                            "contenttweaker:material_part:2"
+                          ]
+                        }
+                      }
+            
+                      ]
+                    },
+                    {
+                        "match": {
+                          "blocks": {
+                            "blocks": [
+                              "biomesoplenty:dirt:9"
+                            ] 
+                          },
+                          "harvester": {
+                            "type": "PLAYER"
+        
+                          }
+                
+                        },
+                        "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+                        "drops": [
+                            {
+                                "selector": {
+                                  "weight": {
+                                    "value": 72
+                                  }
+                                },
+                                "item": {
+                                  "items" : [
+                                    "contenttweaker:material_part:9"
+                                  ]
+                                }
+                              },
+                              {
+                                "selector": {
+                                  "weight": {
+                                    "value": 15
+                                  }
+                                },
+                                "item": {
+                                  "items" : [
+                                    "contenttweaker:material_part:11"
+                                  ]
+                                }
+                              },
+                              {
+                                "selector": {
+                                  "weight": {
+                                    "value": 8
+                                  }
+                                },
+                                "item": {
+                                  "items" : [
+                                    "contenttweaker:material_part"
+                                  ]
+                                }
+                              },
+                              {
+                                "selector": {
+                                  "weight": {
+                                    "value": 5
+                                  }
+                                },
+                                "item": {
+                                  "items" : [
+                                    "contenttweaker:material_part:2"
+                                  ]
+                                }
+                              }
+                              
+                
+                          ]
+                        },
+                    {
+                        "match": {
+                          "blocks": {
+                            "blocks": [
+                              "biomesoplenty:dirt:9"
+                            ] 
+                          }
+                
+                        },
+                        "replaceStrategy": "REPLACE_ALL",
+                        "drops": [
+                          {}
+                
+                        ]
+                      },
+// Dried Sand Drops //
+                      {
+                        "match": {
+                          "blocks": {
+                            "blocks": [
+                              "biomesoplenty:dried_sand"
+                            ] 
+                          },
+                          "harvester": {
+                            "type": "PLAYER",
+                            "heldItemMainHand": {
+                                "items": [
+                                  "hbm:steel_pickaxe"
+                                ]
+                            }
+                          }
+                
+                        },
+                        "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+                        "drops": [
+                          {
+                            "selector": {
+                              "weight": {
+                                "value": 15
+                              }
+                            },
+                            "item": {
+                              "items" : [
+                                "contenttweaker:material_part"
+                              ]
+                            }
+                          },
+                          {
+                            "selector": {
+                              "weight": {
+                                "value": 75
+                              }
+                            },
+                            "item": {
+                              "items" : [
+                                "contenttweaker:material_part:2"
+    
+                              ]
+                            }
+                          },
+                          {
+                            "selector": {
+                              "weight": {
+                                "value": 8
+                              }
+                            },
+                            "item": {
+                              "items" : [
+                                "contenttweaker:material_part:6"
+                              ]
+                            }
+                          },
+                          {
+                            "selector": {
+                              "weight": {
+                                "value": 2
+                              }
+                            },
+                            "item": {
+                              "items" : [
+                                "contenttweaker:material_part:8"
+                              ]
+                            }
+                          }
+                
+                          ]
+                        },
+                        {
+                            "match": {
+                              "blocks": {
+                                "blocks": [
+                                  "biomesoplenty:dried_sand"
+                                ] 
+                              },
+                              "harvester": {
+                                "type": "PLAYER"
+            
+                              }
+                    
+                            },
+                            "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+                            "drops": [
+                                {
+                                    "selector": {
+                                      "weight": {
+                                        "value": 95
+                                      }
+                                    },
+                                    "item": {
+                                      "items" : [
+                                        "contenttweaker:material_part"
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "selector": {
+                                      "weight": {
+                                        "value": 3
+                                      }
+                                    },
+                                    "item": {
+                                      "items" : [
+                                        "contenttweaker:material_part:2"
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "selector": {
+                                      "weight": {
+                                        "value": 2
+                                      }
+                                    },
+                                    "item": {
+                                      "items" : [
+                                        "contenttweaker:material_part:6"
+                                      ]
+                                    }
+                                  }
+
+                                  
+                    
+                              ]
+                            },
+                        {
+                            "match": {
+                              "blocks": {
+                                "blocks": [
+                                  "biomesoplenty:dried_sand"
+                                ] 
+                              }
+                    
+                            },
+                            "replaceStrategy": "REPLACE_ALL",
+                            "drops": [
+                              {}
+                    
+                            ]
+                          },
+
+// Sandy Grass Block Drops //
+                          {
+                            "match": {
+                              "blocks": {
+                                "blocks": [
+                                  "biomesoplenty:grass:3"
+                                ] 
+                              },
+                              "harvester": {
+                                "type": "PLAYER",
+                                "heldItemMainHand": {
+                                    "items": [
+                                      "hbm:steel_shovel"
+                                    ]
+                                }
+                              }
+                    
+                            },
+                            "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+                            "drops": [
+                              {
+                                "selector": {
+                                  "weight": {
+                                    "value": 15
+                                  }
+                                },
+                                "item": {
+                                  "items" : [
+                                    "contenttweaker:material_part:9"
+                                  ]
+                                }
+                              },
+                              {
+                                "selector": {
+                                  "weight": {
+                                    "value": 72
+                                  }
+                                },
+                                "item": {
+                                  "items" : [
+                                    "contenttweaker:material_part:11"
+        
+                                  ]
+                                }
+                              },
+                              {
+                                "selector": {
+                                  "weight": {
+                                    "value": 8
+                                  }
+                                },
+                                "item": {
+                                  "items" : [
+                                    "contenttweaker:material_part"
+                                  ]
+                                }
+                              },
+                              {
+                                "selector": {
+                                  "weight": {
+                                    "value": 3
+                                  }
+                                },
+                                "item": {
+                                  "items" : [
+                                    "contenttweaker:material_part:2"
+                                  ]
+                                }
+                              },
+                              {
+                                "selector": {
+                                  "weight": {
+                                    "value": 2
+                                  }
+                                },
+                                "item": {
+                                  "items" : [
+                                    "contenttweaker:material_part:8"
+                                  ]
+                                }
+                              }
+                              
+                    
+                              ]
+                            },
+                            {
+                                "match": {
+                                  "blocks": {
+                                    "blocks": [
+                                      "biomesoplenty:grass:3"
+                                    ] 
+                                  },
+                                  "harvester": {
+                                    "type": "PLAYER"
+                
+                                  }
+                        
+                                },
+                                "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+                                "drops": [
+                                    {
+                                        "selector": {
+                                          "weight": {
+                                            "value": 72
+                                          }
+                                        },
+                                        "item": {
+                                          "items" : [
+                                            "contenttweaker:material_part:9"
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "selector": {
+                                          "weight": {
+                                            "value": 15
+                                          }
+                                        },
+                                        "item": {
+                                          "items" : [
+                                            "contenttweaker:material_part:11"
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "selector": {
+                                          "weight": {
+                                            "value": 8
+                                          }
+                                        },
+                                        "item": {
+                                          "items" : [
+                                            "contenttweaker:material_part"
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "selector": {
+                                          "weight": {
+                                            "value": 3
+                                          }
+                                        },
+                                        "item": {
+                                          "items" : [
+                                            "contenttweaker:material_part:2"
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "selector": {
+                                          "weight": {
+                                            "value": 2
+                                          }
+                                        },
+                                        "item": {
+                                          "items" : [
+                                            "contenttweaker:material_part:6"
+                                          ]
+                                        }
+                                      }
+                                      
+                        
+                                  ]
+                                },
+                            {
+                                "match": {
+                                  "blocks": {
+                                    "blocks": [
+                                      "biomesoplenty:grass:3"
+                                    ] 
+                                  }
+                        
+                                },
+                                "replaceStrategy": "REPLACE_ALL",
+                                "drops": [
+                                  {}
+                        
+                                ]
+                              },
+// Acacia Wood Drops //
+                              {
+                                "match": {
+                                  "blocks": {
+                                    "blocks": [
+                                      "minecraft:log2"
+                                    ] 
+                                  },
+                                  "harvester": {
+                                    "type": "PLAYER",
+                                    "heldItemMainHand": {
+                                        "items": [
+                                          "hbm:steel_axe"
+                                        ]
+                                    }
+                                  }
+                        
+                                },
+                                "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+                                "drops": [
+                                    {
+                                        "selector": {
+                                          "weight": {
+                                            "value": 100
+                                          }
+                                        },
+                                        "item": {
+                                          "items" : [
+                                            "contenttweaker:wood_log"
+                                          ]
+                                        }
+                                      }
+                        
+                                  ]
+                                },
+                                {
+                                    "match": {
+                                      "blocks": {
+                                        "blocks": [
+                                          "minecraft:log2"
+                                        ] 
+                                      }
+                            
+                                    },
+                                    "replaceStrategy": "REPLACE_ALL",
+                                    "drops": [
+                                      {}
+                            
+                                    ]
+                                  },
+// Dead Wood Drops
+                                  {
+                                    "match": {
+                                      "blocks": {
+                                        "blocks": [
+                                          "biomesoplenty:log_4:*"
+                                        ] 
+                                      },
+                                      "harvester": {
+                                        "type": "PLAYER",
+                                        "heldItemMainHand": {
+                                            "items": [
+                                              "hbm:steel_axe"
+                                            ]
+                                        }
+                                      }
+                            
+                                    },
+                                    "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+                                    "drops": [
+                                        {
+                                            "selector": {
+                                              "weight": {
+                                                "value": 100
+                                              }
+                                            },
+                                            "item": {
+                                              "items" : [
+                                                "contenttweaker:wood_log"
+                                              ]
+                                            }
+                                          }
+                            
+                                      ]
+                                    },
+                                    {
+                                        "match": {
+                                          "blocks": {
+                                            "blocks": [
+                                              "biomesoplenty:log_4:*"
+                                            ] 
+                                          }
+                                
+                                        },
+                                        "replaceStrategy": "REPLACE_ALL",
+                                        "drops": [
+                                          {}
+                                
+                                        ]
+                                      },
+// Hardened Sand Drops //                                      
+                                      {
+                                        "match": {
+                                          "blocks": {
+                                            "blocks": [
+                                              "minecraft:sandstone"
+                                            ] 
+                                          },
+                                          "harvester": {
+                                            "type": "PLAYER",
+                                            "heldItemMainHand": {
+                                                "items": [
+                                                  "hbm:steel_pickaxe"
+                                                ]
+                                            }
+                                          }
+                                
+                                        },
+                                        "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+                                        "drops": [
+                                            {
+                                                "selector": {
+                                                  "weight": {
+                                                    "value": 92
+                                                  }
+                                                },
+                                                "item": {
+                                                  "items" : [
+                                                    "contenttweaker:material_part:2"
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "selector": {
+                                                  "weight": {
+                                                    "value": 8
+                                                  }
+                                                },
+                                                "item": {
+                                                  "items" : [
+                                                    "contenttweaker:material_part"
+                                                  ]
+                                                }
+                                              }
+                                
+                                          ]
+                                        },
+                        
+                                        {
+                                            "match": {
+                                              "blocks": {
+                                                "blocks": [
+                                                  "minecraft:sandstone"
+                                                ] 
+                                              }
+                                    
+                                            },
+                                            "replaceStrategy": "REPLACE_ALL",
+                                            "drops": [
+                                              {}
+                                    
+                                            ]
+                                          },
+// Hardened Red Sand Drops //                     
+                                          {
+                                            "match": {
+                                              "blocks": {
+                                                "blocks": [
+                                                  "minecraft:red_sandstone"
+                                                ] 
+                                              },
+                                              "harvester": {
+                                                "type": "PLAYER",
+                                                "heldItemMainHand": {
+                                                    "items": [
+                                                      "hbm:steel_pickaxe"
+                                                    ]
+                                                }
+                                              }
+                                    
+                                            },
+                                            "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+                                            "drops": [
+                                                {
+                                                    "selector": {
+                                                      "weight": {
+                                                        "value": 92
+                                                      }
+                                                    },
+                                                    "item": {
+                                                      "items" : [
+                                                        "contenttweaker:material_part:5"
+                                                      ]
+                                                    }
+                                                  },
+                                                  {
+                                                    "selector": {
+                                                      "weight": {
+                                                        "value": 8
+                                                      }
+                                                    },
+                                                    "item": {
+                                                      "items" : [
+                                                        "contenttweaker:material_part:3"
+                                                      ]
+                                                    }
+                                                  }
+                                    
+                                              ]
+                                            },
+                                            {
+                                                "match": {
+                                                  "blocks": {
+                                                    "blocks": [
+                                                      "minecraft:red_sandstone"
+                                                    ] 
+                                                  }
+                                        
+                                                },
+                                                "replaceStrategy": "REPLACE_ALL",
+                                                "drops": [
+                                                  {}
+                                        
+                                                ]
+                                              }
+                                      
     
         ]
       }
