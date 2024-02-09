@@ -27,7 +27,10 @@
       },
       "worldinfo": {
         "hardcore": true,
-        "DifficultyLocked": 3
+        "DifficultyLocked": 3,
+        "GameRules": {
+          "doMobSpawning": "false"
+        }
 
 
       },
