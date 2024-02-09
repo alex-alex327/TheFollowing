@@ -30,12 +30,12 @@
 - Dropt
 - FirstAid
 - In Control!
-- It's The Little Things
 - Just Enough Dimensions
 - Modular Machinery
 - No Worldgen 5 You
 - Patchouli
 - RecurrentComplex
+- RandomPatches (Forge)
 - SimpleDifficulty
 - Tips
 - Triumph
