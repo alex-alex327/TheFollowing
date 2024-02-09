@@ -1,15 +1,17 @@
 #loader contenttweaker
 
 import mods.contenttweaker.VanillaFactory;
+import mods.contenttweaker.Item;
 
 
 
-var item = VanillaFactory.createItemFood("test_food_item", 4);
-item.healAmount = 4;
-item.saturation = 1.5;
-item.onItemFoodEaten = function(stack, world, player) {
+var EdibleRoot = VanillaFactory.createItemFood("edible_root", 1);
+EdibleRoot.maxStackSize = 16;
+EdibleRoot.healAmount = 1;
+EdibleRoot.saturation = 0.2;
+EdibleRoot.onItemFoodEaten = function(stack, world, player) {
     if (!world.isRemote()) {
-        player.addPotionEffect(<potion:minecraft:hunger>.makePotionEffect(60, 1));
+        player.addPotionEffect(<potion:simpledifficulty:thirsty>.makePotionEffect(100, 1));
     }
 };
-item.register();
+EdibleRoot.register();
