@@ -11,7 +11,7 @@
 - Modern Warfare Cubed
 - OpenComputers
 - OpenSecurity
-
+- Trumpet Skeleton
 
 === Config Mods ===
 
