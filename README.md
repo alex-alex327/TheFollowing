@@ -6,6 +6,7 @@
 - Biomes O' Plenty
 - Deep Mob Evolution
 - Engineer's Decor
+- Fish's Undead Rising
 - Grappling Hook Mod
 - Hbm's Nuclear Tech - Extended Edition
 - Modern Warfare Cubed
