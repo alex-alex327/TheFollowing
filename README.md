@@ -18,7 +18,7 @@
 
 - Better Questing Unofficial
 - BiomeTweaker
-- BiomTweakerCore
+- BiomeTweakerCore
 - Cave Generator
 - COFH World
 - ContentTweaker
